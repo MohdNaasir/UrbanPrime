@@ -36,7 +36,7 @@ export const register = async(req, res)=>{
            res.cookie("token", token, {
             httpOnly: true,
             secure:true,
-            sameSite: "None",
+            sameSite: "none",
             maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
         });
         console.log("User registered successfully:", user);
@@ -72,7 +72,7 @@ export const login = async (req, res) => {
            res.cookie("token", token, {
             httpOnly: true,
             secure:true,
-            sameSite: "None",
+            sameSite: "none",
             maxAge: 7 * 24 * 60 * 60 * 1000 // 7 days
         });
    
@@ -90,7 +90,7 @@ export const logout = async (req,res)=>{
        res.clearCookie("token", {
   httpOnly: true,
    secure:true,
-    sameSite: "None",
+    sameSite: "none",
 });
         return res.json({success:true, message:"User Logout"})
     } catch (error) {
@@ -114,7 +114,7 @@ try {
         res.cookie("token",token, {
             httpOnly:true,
            secure:true,
-            sameSite: "None",
+            sameSite: "none",
             maxAge:   7*24*60*60*1000
         });
 
@@ -135,7 +135,7 @@ export const adminLogin = async(req,res) => {
         res.cookie("token",token, {
             httpOnly:true,
            secure:true,
-            sameSite: "None",
+            sameSite: "none",
             maxAge:   7*24*60*60*1000
         });
         return res.status(200).json(token)
