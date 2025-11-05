@@ -38,7 +38,7 @@ const Navbar = () => {
       {/* LEFT: LOGO */}
       <div className='w-[30%] flex items-center justify-start gap-[10px]'>
         <img className='w-[30px]' src={logo} alt="OneCart Logo" /> {/* 🔧 LINE FIX: Added alt text */}
-        <h1 className='text-[25px] text-black font-semibold'>OneCart</h1>
+        <h1 className='text-[25px] text-black font-semibold'>UrbanPrime</h1>
       </div>
 
       {/* CENTER: NAVIGATION */}
