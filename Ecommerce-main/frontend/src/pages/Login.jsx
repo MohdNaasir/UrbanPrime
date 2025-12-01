@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
 import Logo from "../assets/vcart logo.png";
 import axios from "axios";
-import { signInWithPopup } from "firebase/auth";
-import { auth, provider } from "../utils/firebase";
+// import { signInWithPopup } from "firebase/auth";
+// import { auth, provider } from "../utils/firebase";
 import { AuthDataContext } from "../context/AuthContext";
 import { UserDataContext } from "../context/UserContext";
 
@@ -89,7 +89,7 @@ const Login = () => {
           className="w-[90%] h-[90%] flex flex-col items-center justify-start gap-[20px]"
         >
           {/* Google Login */}
-          <div
+          {/* <div
             onClick={googleLogin}
             className="w-[90%] h-[50px] rounded-lg flex items-center justify-center gap-5 py-6 cursor-pointer bg-[#42656cae] hover:bg-[#42656c] transition-all"
           >
@@ -103,14 +103,14 @@ const Login = () => {
             ) : (
               "Login with Google"
             )}
-          </div>
+          </div> */}
 
           {/* Divider */}
-          <div className="w-[100%] h-[20px] flex items-center justify-center gap-[10px]">
+          {/* <div className="w-[100%] h-[20px] flex items-center justify-center gap-[10px]">
             <div className="w-[40%] h-[1px] bg-[#96969635]"></div>
             OR
             <div className="w-[40%] h-[1px] bg-[#96969635]"></div>
-          </div>
+          </div> */}
 
           {/* Inputs */}
           <div className="w-[90%] flex flex-col items-center justify-center gap-[15px] relative">
