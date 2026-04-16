@@ -98,7 +98,7 @@ const Register = () => {
           className="w-full flex flex-col items-center gap-[20px]"
         >
           {/* Google Signup */}
-          <div
+          {/* <div
             onClick={googleSignup}
             className="w-full h-[50px] rounded-lg flex items-center justify-center gap-5 cursor-pointer bg-[#42656cae] hover:bg-[#26474da2] transition-all duration-300"
           >
@@ -108,14 +108,14 @@ const Register = () => {
               alt="google"
             />
             {googleLoading ? <Loading /> : "Sign up with Google"}
-          </div>
+          </div> */}
 
           {/* Divider */}
-          <div className="w-full flex items-center justify-center gap-[10px] text-gray-400">
+          {/* <div className="w-full flex items-center justify-center gap-[10px] text-gray-400">
             <div className="w-[40%] h-[1px] bg-[#96969635]" />
             OR
             <div className="w-[40%] h-[1px] bg-[#96969635]" />
-          </div>
+          </div> */}
 
           {/* Inputs */}
           <div className="w-full flex flex-col gap-[15px] relative">
