@@ -15,7 +15,7 @@ const app=express()
 connectDB();
 
 app.use(cors({
-    origin:["https://urban-prime-7zjw.vercel.app" ,"https://urban-primehubadmin.vercel.app"],
+    origin:["https://urban-prime-7zjw.vercel.app" ,"https://urban-prime-gr4m.vercel.app"],
     credentials:true,
 }))
 app.use(cookieParser())
