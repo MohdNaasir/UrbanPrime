@@ -88,29 +88,7 @@ const Login = () => {
           onSubmit={handleLogin}
           className="w-[90%] h-[90%] flex flex-col items-center justify-start gap-[20px]"
         >
-          /* {/* Google Login */}
-            { <div
-            onClick={googleLogin}
-            className="w-[90%] h-[50px] rounded-lg flex items-center justify-center gap-5 py-6 cursor-pointer bg-[#42656cae] hover:bg-[#42656c] transition-all"
-          >
-            <img
-              className="w-10"
-              src="https://s.yimg.com/fz/api/res/1.2/Qpybtr24YAUp2UGFYg1M5A--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/fe90b2b3-0ac3-3c81-8238-d3724bf23104/t_500x300"
-              alt="google"
-            />
-            {googleLoading ? (
-              <div className="w-5 h-5 border-4 border-white border-t-transparent rounded-full animate-spin"></div>
-            ) : (
-              "Login with Google"
-            )}
-          </div> } */
-
-          {/* Divider */}
-          /* { <div className="w-[100%] h-[20px] flex items-center justify-center gap-[10px]">
-            <div className="w-[40%] h-[1px] bg-[#96969635]"></div>
-            OR
-            <div className="w-[40%] h-[1px] bg-[#96969635]"></div>
-          </div> }   */
+          
 
           {/* Inputs */}
           <div className="w-[90%] flex flex-col items-center justify-center gap-[15px] relative">
